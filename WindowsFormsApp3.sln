@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySaloonWF", "WindowsFormsApp3\BeautySaloonWF.csproj", "{65A6266A-B024-4D3E-A46A-83460F7DBD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySaloonCore", "Beauty\BeautySaloonCore.csproj", "{10D03EE3-D6E2-48F9-91F1-C568336F2BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A6266A-B024-4D3E-A46A-83460F7DBD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A6266A-B024-4D3E-A46A-83460F7DBD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A6266A-B024-4D3E-A46A-83460F7DBD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A6266A-B024-4D3E-A46A-83460F7DBD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D03EE3-D6E2-48F9-91F1-C568336F2BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D03EE3-D6E2-48F9-91F1-C568336F2BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D03EE3-D6E2-48F9-91F1-C568336F2BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D03EE3-D6E2-48F9-91F1-C568336F2BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CCAACBE-00C1-43D8-84A2-AFA954D23F0B}
+	EndGlobalSection
+EndGlobal
