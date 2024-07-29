@@ -19,8 +19,7 @@ namespace WindowsFormsApp3.Forms
 
         private void buttonEntrancePA1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new (this).Show();
+            
         }
 
         private void buttonBack1_Click(object sender, EventArgs e)
