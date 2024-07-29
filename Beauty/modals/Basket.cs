@@ -32,6 +32,7 @@ namespace Beauty.modals
 
 		static Basket()
 		{
+			int a = 0;
 			Items = new List<PayingInfo>();
 		}
 
