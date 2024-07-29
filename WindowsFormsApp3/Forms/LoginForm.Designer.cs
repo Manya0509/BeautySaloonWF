@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.loginTb = new System.Windows.Forms.TextBox();
             this.passwordTb = new System.Windows.Forms.TextBox();
+            this.buttonBack1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -99,11 +100,21 @@
             this.passwordTb.Size = new System.Drawing.Size(154, 20);
             this.passwordTb.TabIndex = 6;
             // 
-            // Form1
+            // buttonBack1
+            // 
+            this.buttonBack1.Location = new System.Drawing.Point(508, 12);
+            this.buttonBack1.Name = "buttonBack1";
+            this.buttonBack1.Size = new System.Drawing.Size(75, 23);
+            this.buttonBack1.TabIndex = 7;
+            this.buttonBack1.Text = "Назад";
+            this.buttonBack1.UseVisualStyleBackColor = true;
+            // 
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 411);
+            this.Controls.Add(this.buttonBack1);
             this.Controls.Add(this.passwordTb);
             this.Controls.Add(this.loginTb);
             this.Controls.Add(this.label3);
@@ -111,7 +122,7 @@
             this.Controls.Add(this.regBtn);
             this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "LoginForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -127,6 +138,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox loginTb;
         private System.Windows.Forms.TextBox passwordTb;
+        private System.Windows.Forms.Button buttonBack1;
     }
 }
 

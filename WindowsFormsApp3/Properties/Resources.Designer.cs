@@ -59,25 +59,5 @@ namespace WindowsFormsApp3.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap png_transparent_shopping_cart_icon_shopping_cart_black_design_trade_thumbnail {
-            get {
-                object obj = ResourceManager.GetObject("png-transparent-shopping-cart-icon-shopping-cart-black-design-trade-thumbnail", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap лк {
-            get {
-                object obj = ResourceManager.GetObject("лк", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
