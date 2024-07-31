@@ -25,7 +25,7 @@ namespace WindowsFormsApp3
 
             if (UserManager.IsUserLogin(login, password))
             {
-                MessageBox.Show("Успешно");
+                new MainForm().Show();
             }
             else
             {

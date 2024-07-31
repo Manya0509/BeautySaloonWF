@@ -173,6 +173,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(779, 116);
             this.panel3.TabIndex = 1;
+            this.panel3.Click += new System.EventHandler(this.panel_Click);
             // 
             // label5
             // 
@@ -271,6 +272,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(779, 116);
             this.panel2.TabIndex = 0;
+            this.panel2.Click += new System.EventHandler(this.panel_Click);
             // 
             // servicesLb
             // 
@@ -388,6 +390,7 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(779, 116);
             this.panel9.TabIndex = 0;
+            this.panel9.Click += new System.EventHandler(this.panel_Click);
             // 
             // label37
             // 
@@ -504,6 +507,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(779, 116);
             this.panel10.TabIndex = 0;
+            this.panel10.Click += new System.EventHandler(this.panel_Click);
             // 
             // label29
             // 
@@ -621,6 +625,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(779, 116);
             this.panel5.TabIndex = 1;
+            this.panel5.Click += new System.EventHandler(this.panel_Click);
             // 
             // label13
             // 
@@ -719,6 +724,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(779, 116);
             this.panel6.TabIndex = 0;
+            this.panel6.Click += new System.EventHandler(this.panel_Click);
             // 
             // label21
             // 
@@ -821,7 +827,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // buttonExit1
             // 
