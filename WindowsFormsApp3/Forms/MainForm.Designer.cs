@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.barberPage = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -172,6 +173,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(779, 116);
             this.panel3.TabIndex = 1;
+            this.panel3.Click += new System.EventHandler(this.panel_Click);
             // 
             // label5
             // 
@@ -247,9 +249,11 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(3, 3);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(156, 110);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
@@ -268,6 +272,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(779, 116);
             this.panel2.TabIndex = 0;
+            this.panel2.Click += new System.EventHandler(this.panel_Click);
             // 
             // servicesLb
             // 
@@ -343,9 +348,11 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(3, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(156, 110);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
@@ -383,6 +390,7 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(779, 116);
             this.panel9.TabIndex = 0;
+            this.panel9.Click += new System.EventHandler(this.panel_Click);
             // 
             // label37
             // 
@@ -458,9 +466,11 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(3, 3);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(156, 110);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
@@ -497,6 +507,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(779, 116);
             this.panel10.TabIndex = 0;
+            this.panel10.Click += new System.EventHandler(this.panel_Click);
             // 
             // label29
             // 
@@ -572,9 +583,11 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::WindowsFormsApp3.Properties.Resources.lashmaker;
             this.pictureBox7.Location = new System.Drawing.Point(3, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(156, 110);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
@@ -612,6 +625,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(779, 116);
             this.panel5.TabIndex = 1;
+            this.panel5.Click += new System.EventHandler(this.panel_Click);
             // 
             // label13
             // 
@@ -687,9 +701,11 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(3, 3);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(156, 110);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
@@ -708,6 +724,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(779, 116);
             this.panel6.TabIndex = 0;
+            this.panel6.Click += new System.EventHandler(this.panel_Click);
             // 
             // label21
             // 
@@ -783,14 +800,17 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(3, 3);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(156, 110);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(975, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 40);
@@ -800,13 +820,13 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1034, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(37, 41);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // buttonExit1
             // 

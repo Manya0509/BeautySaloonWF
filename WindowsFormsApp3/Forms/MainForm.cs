@@ -17,9 +17,11 @@ namespace WindowsFormsApp3.Forms
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void panel_Click(object sender, EventArgs e)
         {
+            Panel panel = sender as Panel;
 
+            string masterName = panel.Name.Substring(panel.Name.IndexOf("-") + 1);
         }
     }
 }
