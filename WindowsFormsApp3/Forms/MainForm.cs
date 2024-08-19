@@ -21,7 +21,16 @@ namespace WindowsFormsApp3.Forms
         {
             Panel panel = sender as Panel;
 
-            string masterName = panel.Name.Substring(panel.Name.IndexOf("-") + 1);
+            string masterName = panel.Name.Substring(panel.Name.IndexOf("_") + 1);
+
+            this.Hide();
+            new PageMaster(this).Show();
+        }
+
+        private void buttonExit1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
+
 }
