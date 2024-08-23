@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BeautySaloon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,11 +14,23 @@ namespace WindowsFormsApp3
     public partial class PageMaster : Form
     {
         private Form _form;
-
-        public PageMaster(Form form)
+        private BeautyMaster _master;
+    
+        public PageMaster(Form form, BeautyMaster master)
         {
             InitializeComponent();
             _form = form;
+            _master = master;
+        }
+
+        private void PageMaster_Load(object sender, EventArgs e)
+        {
+            label1NameMaster.Text = _master.Name;
+            label4Age.Text = $"{ _master.Age}";
+            label5Experience.Text = $"{_master.WorkExperience}";
+            pictureBox1.Image = Image.FromFile(_master.ImagePath);
+
+
         }
         private void button1Exit_Click(object sender, EventArgs e)
         {
@@ -35,6 +48,8 @@ namespace WindowsFormsApp3
             _form.Show();
 
         }
+
+
     }
 }
 

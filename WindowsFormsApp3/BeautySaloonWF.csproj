@@ -127,7 +127,13 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="im\visagiste.jpg" />
+    <Content Include="im\visagiste2.jpg" />
     <None Include="im\lashmaker.jpg" />
+    <Content Include="im\barber.jpg" />
+    <Content Include="im\barber2.jpg" />
+    <Content Include="im\cosmetologist.jpg" />
+    <Content Include="im\personalAccount.png" />
     <Content Include="im\picture.Basket.jpg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

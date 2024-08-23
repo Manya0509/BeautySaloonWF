@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Beauty.modals;
+using BeautySaloon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,15 +24,22 @@ namespace WindowsFormsApp3.Forms
             Panel panel = sender as Panel;
 
             string masterName = panel.Name.Substring(panel.Name.IndexOf("_") + 1);
+            BeautyMaster master = BeautyMastersManager.Masters.FirstOrDefault(x => x.Name == masterName);
+
+            if (masterName == null)
+            {
+                return;
+            }
 
             this.Hide();
-            new PageMaster(this).Show();
+            new PageMaster(this, master).Show();
         }
 
         private void buttonExit1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
     }
 
 }
