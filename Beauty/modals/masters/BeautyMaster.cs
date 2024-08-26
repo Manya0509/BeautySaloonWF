@@ -16,13 +16,17 @@ namespace BeautySaloon
         public string Profession { get; set; }
         public RegistrationTime[] Times { get; set; } = new RegistrationTime[8];
         public List<Service> Services { get; set; }
+        public string ImagePath { get; set; }
 
-        public BeautyMaster(string name, int age, int workExperience, string profession)
+        public BeautyMaster(string name, int age, int workExperience, string profession, string imagePath)
         {
             Name = name;
             Age = age;
             WorkExperience = workExperience;
             Profession = profession;
+            ImagePath = imagePath;
+
+            
 
             Services = new List<Service>();
 
