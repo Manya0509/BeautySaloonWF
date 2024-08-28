@@ -1,4 +1,5 @@
-﻿using BeautySaloon;
+﻿using Beauty;
+using BeautySaloon;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +16,7 @@ namespace WindowsFormsApp3
     {
         private Form _form;
         private BeautyMaster _master;
-    
+
         public PageMaster(Form form, BeautyMaster master)
         {
             InitializeComponent();
@@ -26,9 +27,16 @@ namespace WindowsFormsApp3
         private void PageMaster_Load(object sender, EventArgs e)
         {
             label1NameMaster.Text = _master.Name;
-            label4Age.Text = $"{ _master.Age}";
+            label4Age.Text = $"{_master.Age}";
             label5Experience.Text = $"{_master.WorkExperience}";
-            pictureBox1.Image = Image.FromFile(_master.ImagePath);
+            //pictureBox1.Image = Image.FromFile(_master.ImagePath);
+
+            foreach (var item in _master.Services)
+            {
+                label2NameOfService.Text += item.Name + "\n";
+                label3Price.Text += item.Price + "\n";
+            }
+
 
 
         }
@@ -49,7 +57,10 @@ namespace WindowsFormsApp3
 
         }
 
-
+        private void button1Time_Click(object sender, EventArgs e)
+        {
+            new RegistrationTimeForm(_master).Show();
+        }
     }
 }
 
