@@ -13,7 +13,7 @@ namespace Beauty
 
         public Service(string name, int price) 
         {
-            NameS = nameS;
+            Name = name;
             Price = price;
         }
     }

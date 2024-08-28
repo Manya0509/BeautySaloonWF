@@ -21,7 +21,7 @@ namespace Beauty.modals
 
         private static void Init()
         {
-            BeautyMaster barber = new BeautyMaster("Виктория", 20, 2, "Барбер", @"C: \Users\Дарья\Source\Repos\Manya0509\BeautySaloonWF\WindowsFormsApp3\im\barber.jpg");
+            BeautyMaster barber = new BeautyMaster("Виктория", 20, 2, "Барбер", @"C:\Users\Дарья\Source\Repos\Manya0509\BeautySaloonWF\WindowsFormsApp3\im\barber.jpg");
             barber.AddServices(new Service[] { new Service("Стрижка женская", 2000), new Service("Стрижка мужская", 1000) });
             BeautyMaster barber1 = new BeautyMaster("Евгения", 22, 3, "Барбер", @"C:\Users\Дарья\Source\Repos\Manya0509\BeautySaloonWF\WindowsFormsApp3\im\barber2.jpg");
             barber1.AddServices(new Service[] { new Service("Окрашивание волос", 4000), new Service("Наращивание волос", 7000) });

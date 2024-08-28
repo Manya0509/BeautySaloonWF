@@ -105,9 +105,8 @@
             this.label2NameOfService.AutoSize = true;
             this.label2NameOfService.Location = new System.Drawing.Point(15, 567);
             this.label2NameOfService.Name = "label2NameOfService";
-            this.label2NameOfService.Size = new System.Drawing.Size(51, 20);
+            this.label2NameOfService.Size = new System.Drawing.Size(0, 20);
             this.label2NameOfService.TabIndex = 6;
-            this.label2NameOfService.Text = "label2";
             // 
             // button1Time
             // 
@@ -119,6 +118,7 @@
             this.button1Time.TabIndex = 7;
             this.button1Time.Text = "Выбрать время";
             this.button1Time.UseVisualStyleBackColor = false;
+            this.button1Time.Click += new System.EventHandler(this.button1Time_Click);
             // 
             // dateTimePicker1
             // 
@@ -142,9 +142,8 @@
             this.label3Price.AutoSize = true;
             this.label3Price.Location = new System.Drawing.Point(469, 567);
             this.label3Price.Name = "label3Price";
-            this.label3Price.Size = new System.Drawing.Size(51, 20);
+            this.label3Price.Size = new System.Drawing.Size(0, 20);
             this.label3Price.TabIndex = 10;
-            this.label3Price.Text = "label3";
             // 
             // label3
             // 
@@ -188,9 +187,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 106);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(678, 359);
+            this.pictureBox1.Size = new System.Drawing.Size(634, 381);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
