@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp3.Forms;
 
 namespace WindowsFormsApp3
 {
@@ -33,11 +34,8 @@ namespace WindowsFormsApp3
 
             foreach (var item in _master.Services)
             {
-                label2NameOfService.Text += item.Name + "\n";
-                label3Price.Text += item.Price + "\n";
+               serviceLB.Items.Add(item.Name + "\t\t\t  " + item.Price);
             }
-
-
 
         }
         private void button1Exit_Click(object sender, EventArgs e)
@@ -57,9 +55,26 @@ namespace WindowsFormsApp3
 
         }
 
-        private void button1Time_Click(object sender, EventArgs e)
+        private void NameOfService_Click(object sender, EventArgs e)
         {
-            new RegistrationTimeForm(_master).Show();
+
+        }
+
+        private void serviceLB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string text = serviceLB.SelectedItem.ToString();
+
+            string name = text.Substring(0, text.IndexOf("  "));
+            int price = int.Parse(text.Substring(text.LastIndexOf(" ")));
+
+            Service service = new Service(name, price);
+
+            new RegistrationTimeForm(_master, service).Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new BasketForm();
         }
     }
 }
