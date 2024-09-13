@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.loginTb = new System.Windows.Forms.TextBox();
             this.passwordTb = new System.Windows.Forms.TextBox();
+            this.skipBt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,11 +107,22 @@
             this.passwordTb.Size = new System.Drawing.Size(229, 26);
             this.passwordTb.TabIndex = 6;
             // 
+            // skipBt
+            // 
+            this.skipBt.Location = new System.Drawing.Point(765, 573);
+            this.skipBt.Name = "skipBt";
+            this.skipBt.Size = new System.Drawing.Size(115, 47);
+            this.skipBt.TabIndex = 7;
+            this.skipBt.Text = "Пропустить";
+            this.skipBt.UseVisualStyleBackColor = true;
+            this.skipBt.Click += new System.EventHandler(this.skipBt_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(892, 632);
+            this.Controls.Add(this.skipBt);
             this.Controls.Add(this.passwordTb);
             this.Controls.Add(this.loginTb);
             this.Controls.Add(this.label3);
@@ -135,6 +147,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox loginTb;
         private System.Windows.Forms.TextBox passwordTb;
+        private System.Windows.Forms.Button skipBt;
     }
 }
 

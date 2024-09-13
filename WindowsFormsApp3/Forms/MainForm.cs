@@ -1,4 +1,5 @@
-﻿using Beauty.modals;
+﻿using Beauty;
+using Beauty.modals;
 using BeautySaloon;
 using System;
 using System.Collections.Generic;
@@ -40,6 +41,17 @@ namespace WindowsFormsApp3.Forms
             this.Close();
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+                this.Hide();
+                new BasketForm().Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new PersonalAccount(this).Show();
+        }
     }
 
 }

@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp3.Forms;
 
 namespace WindowsFormsApp3
 {
@@ -17,13 +18,15 @@ namespace WindowsFormsApp3
     {
         private BeautyMaster _master;
         private Service _service;
+        private Form _form;
 
-        public RegistrationTimeForm(BeautyMaster master, Service service)
+        public RegistrationTimeForm(BeautyMaster master, Service service, Form form)
         {
             InitializeComponent();
 
             _master = master;
             _service = service;
+            _form = form;
 
             this.chooseBtn_8.Click += new System.EventHandler(this.TimeChooseBtn_Click);
             this.chooseBtn_9.Click += new System.EventHandler(this.TimeChooseBtn_Click);
@@ -138,6 +141,23 @@ namespace WindowsFormsApp3
                     }
                 }
             }
+        }
+
+        private void basketBt_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new BasketForm().Show();
+        }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            GoBack();
+        }
+
+        private void GoBack()
+        {
+            this.Hide();
+            _form.Show();
         }
     }
 }

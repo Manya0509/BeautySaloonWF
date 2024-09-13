@@ -39,5 +39,11 @@ namespace WindowsFormsApp3
             this.Hide();
             new RegistrationForm(this).Show();
         }
+
+        private void skipBt_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new MainForm().Show();
+        }
     }
 }

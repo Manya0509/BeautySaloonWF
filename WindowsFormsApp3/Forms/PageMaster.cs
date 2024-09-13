@@ -69,12 +69,13 @@ namespace WindowsFormsApp3
 
             Service service = new Service(name, price);
 
-            new RegistrationTimeForm(_master, service).Show();
+            new RegistrationTimeForm(_master, service, _form).Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void basketBt_Click(object sender, EventArgs e)
         {
-            new BasketForm();
+                this.Hide();
+                new BasketForm().Show();
         }
     }
 }

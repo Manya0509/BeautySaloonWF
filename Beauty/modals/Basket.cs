@@ -28,7 +28,7 @@ namespace Beauty.modals
 			}
 			set { totalPrice = value; }
 		}
-
+		
 
 		static Basket()
 		{

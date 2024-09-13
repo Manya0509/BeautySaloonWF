@@ -45,113 +45,128 @@
             // loginTb
             // 
             this.loginTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.loginTb.Location = new System.Drawing.Point(153, 94);
+            this.loginTb.Location = new System.Drawing.Point(230, 145);
+            this.loginTb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.loginTb.Name = "loginTb";
-            this.loginTb.Size = new System.Drawing.Size(139, 23);
+            this.loginTb.Size = new System.Drawing.Size(206, 30);
             this.loginTb.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(153, 75);
+            this.label1.Location = new System.Drawing.Point(230, 115);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(55, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Логин";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(150, 119);
+            this.label2.Location = new System.Drawing.Point(225, 183);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Пароль";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(150, 163);
+            this.label3.Location = new System.Drawing.Point(225, 251);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 13);
+            this.label3.Size = new System.Drawing.Size(152, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Повторите пароль";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(153, 212);
+            this.label4.Location = new System.Drawing.Point(230, 326);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 13);
+            this.label4.Size = new System.Drawing.Size(40, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Имя";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(153, 258);
+            this.label5.Location = new System.Drawing.Point(230, 397);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.Size = new System.Drawing.Size(57, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Почта";
             // 
             // passwordTb
             // 
             this.passwordTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.passwordTb.Location = new System.Drawing.Point(153, 137);
+            this.passwordTb.Location = new System.Drawing.Point(230, 211);
+            this.passwordTb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.passwordTb.Name = "passwordTb";
-            this.passwordTb.Size = new System.Drawing.Size(139, 23);
+            this.passwordTb.Size = new System.Drawing.Size(206, 30);
             this.passwordTb.TabIndex = 10;
             // 
             // repeatPasswordTb
             // 
             this.repeatPasswordTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.repeatPasswordTb.Location = new System.Drawing.Point(153, 186);
+            this.repeatPasswordTb.Location = new System.Drawing.Point(230, 286);
+            this.repeatPasswordTb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.repeatPasswordTb.Name = "repeatPasswordTb";
-            this.repeatPasswordTb.Size = new System.Drawing.Size(139, 23);
+            this.repeatPasswordTb.Size = new System.Drawing.Size(206, 30);
             this.repeatPasswordTb.TabIndex = 11;
             // 
             // nameTb
             // 
             this.nameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nameTb.Location = new System.Drawing.Point(153, 228);
+            this.nameTb.Location = new System.Drawing.Point(230, 351);
+            this.nameTb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nameTb.Name = "nameTb";
-            this.nameTb.Size = new System.Drawing.Size(139, 23);
+            this.nameTb.Size = new System.Drawing.Size(206, 30);
             this.nameTb.TabIndex = 12;
             // 
             // emailTb
             // 
             this.emailTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.emailTb.Location = new System.Drawing.Point(156, 274);
+            this.emailTb.Location = new System.Drawing.Point(234, 422);
+            this.emailTb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.emailTb.Name = "emailTb";
-            this.emailTb.Size = new System.Drawing.Size(139, 23);
+            this.emailTb.Size = new System.Drawing.Size(206, 30);
             this.emailTb.TabIndex = 13;
             // 
             // regBtn
             // 
-            this.regBtn.Location = new System.Drawing.Point(153, 315);
+            this.regBtn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.regBtn.Location = new System.Drawing.Point(230, 485);
+            this.regBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.regBtn.Name = "regBtn";
-            this.regBtn.Size = new System.Drawing.Size(139, 30);
+            this.regBtn.Size = new System.Drawing.Size(208, 46);
             this.regBtn.TabIndex = 14;
             this.regBtn.Text = "Зарегистрироваться";
-            this.regBtn.UseVisualStyleBackColor = true;
+            this.regBtn.UseVisualStyleBackColor = false;
             this.regBtn.Click += new System.EventHandler(this.regBtn_Click);
             // 
             // backBtn
             // 
-            this.backBtn.Location = new System.Drawing.Point(12, 12);
+            this.backBtn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.backBtn.Location = new System.Drawing.Point(18, 18);
+            this.backBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.backBtn.Name = "backBtn";
-            this.backBtn.Size = new System.Drawing.Size(75, 23);
+            this.backBtn.Size = new System.Drawing.Size(112, 35);
             this.backBtn.TabIndex = 15;
             this.backBtn.Text = "Назад";
-            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.UseVisualStyleBackColor = false;
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
             // RegistrationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 450);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(658, 692);
             this.Controls.Add(this.backBtn);
             this.Controls.Add(this.regBtn);
             this.Controls.Add(this.emailTb);
@@ -164,6 +179,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.loginTb);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "RegistrationForm";
             this.Text = "RegistrationForm";
             this.ResumeLayout(false);

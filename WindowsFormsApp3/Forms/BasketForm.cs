@@ -21,5 +21,10 @@ namespace WindowsFormsApp3.Forms
         {
 
         }
+
+        private void exitBt2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

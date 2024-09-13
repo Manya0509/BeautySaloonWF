@@ -879,41 +879,46 @@
             // 
             // buttonExit1
             // 
+            this.buttonExit1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.buttonExit1.Location = new System.Drawing.Point(18, 18);
             this.buttonExit1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonExit1.Name = "buttonExit1";
             this.buttonExit1.Size = new System.Drawing.Size(112, 35);
             this.buttonExit1.TabIndex = 2;
             this.buttonExit1.Text = "Выход";
-            this.buttonExit1.UseVisualStyleBackColor = true;
+            this.buttonExit1.UseVisualStyleBackColor = false;
             this.buttonExit1.Click += new System.EventHandler(this.buttonExit1_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1322, 18);
+            this.pictureBox2.Location = new System.Drawing.Point(1272, 19);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1411, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(1364, 18);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(56, 63);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1488, 890);
             this.Controls.Add(this.buttonExit1);
             this.Controls.Add(this.tabControl1);
