@@ -26,8 +26,6 @@ namespace BeautySaloon
             Profession = profession;
             ImagePath = imagePath;
 
-            
-
             Services = new List<Service>();
 
             InitWorkTimes();

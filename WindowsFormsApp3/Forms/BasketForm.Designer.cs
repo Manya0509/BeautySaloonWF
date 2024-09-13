@@ -29,126 +29,122 @@
         private void InitializeComponent()
         {
             this.backBt1 = new System.Windows.Forms.Button();
-            this.basketTable = new System.Windows.Forms.TableLayoutPanel();
             this.exitBt2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.nameMasCl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ServiseCl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TimeCl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PriceCl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.totalLb = new System.Windows.Forms.Label();
+            this.totalSumLb = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // backBt1
             // 
             this.backBt1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.backBt1.Location = new System.Drawing.Point(20, 20);
-            this.backBt1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.backBt1.Location = new System.Drawing.Point(13, 13);
             this.backBt1.Name = "backBt1";
-            this.backBt1.Size = new System.Drawing.Size(112, 35);
+            this.backBt1.Size = new System.Drawing.Size(75, 23);
             this.backBt1.TabIndex = 0;
             this.backBt1.Text = "Назад";
             this.backBt1.UseVisualStyleBackColor = false;
             // 
-            // basketTable
-            // 
-            this.basketTable.ColumnCount = 4;
-            this.basketTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.64384F));
-            this.basketTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.35616F));
-            this.basketTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.basketTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 108F));
-            this.basketTable.Location = new System.Drawing.Point(20, 125);
-            this.basketTable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.basketTable.Name = "basketTable";
-            this.basketTable.RowCount = 1;
-            this.basketTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.basketTable.Size = new System.Drawing.Size(945, 97);
-            this.basketTable.TabIndex = 1;
-            // 
             // exitBt2
             // 
             this.exitBt2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.exitBt2.Location = new System.Drawing.Point(1073, 26);
+            this.exitBt2.Location = new System.Drawing.Point(715, 17);
+            this.exitBt2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exitBt2.Name = "exitBt2";
-            this.exitBt2.Size = new System.Drawing.Size(124, 29);
+            this.exitBt2.Size = new System.Drawing.Size(83, 19);
             this.exitBt2.TabIndex = 2;
             this.exitBt2.Text = "Выход";
             this.exitBt2.UseVisualStyleBackColor = false;
             this.exitBt2.Click += new System.EventHandler(this.exitBt2_Click);
             // 
-            // dataGridView1
+            // label1
             // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nameMasCl,
-            this.ServiseCl,
-            this.TimeCl,
-            this.PriceCl});
-            this.dataGridView1.Location = new System.Drawing.Point(20, 253);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(732, 82);
-            this.dataGridView1.TabIndex = 3;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Имя мастера";
             // 
-            // nameMasCl
+            // label2
             // 
-            this.nameMasCl.HeaderText = "Имя мастера";
-            this.nameMasCl.MinimumWidth = 8;
-            this.nameMasCl.Name = "nameMasCl";
-            this.nameMasCl.Width = 150;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(149, 88);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "label2";
             // 
-            // ServiseCl
+            // label3
             // 
-            this.ServiseCl.HeaderText = "Наименование услуги";
-            this.ServiseCl.MinimumWidth = 8;
-            this.ServiseCl.Name = "ServiseCl";
-            this.ServiseCl.Width = 220;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(271, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "label3";
             // 
-            // TimeCl
+            // label4
             // 
-            this.TimeCl.HeaderText = "Время";
-            this.TimeCl.MinimumWidth = 8;
-            this.TimeCl.Name = "TimeCl";
-            this.TimeCl.Width = 150;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(420, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "label4";
             // 
-            // PriceCl
+            // totalLb
             // 
-            this.PriceCl.HeaderText = "Стоимость";
-            this.PriceCl.MinimumWidth = 8;
-            this.PriceCl.Name = "PriceCl";
-            this.PriceCl.Width = 150;
+            this.totalLb.AutoSize = true;
+            this.totalLb.Location = new System.Drawing.Point(331, 228);
+            this.totalLb.Name = "totalLb";
+            this.totalLb.Size = new System.Drawing.Size(37, 13);
+            this.totalLb.TabIndex = 8;
+            this.totalLb.Text = "Итого";
+            // 
+            // totalSumLb
+            // 
+            this.totalSumLb.AutoSize = true;
+            this.totalSumLb.Location = new System.Drawing.Point(420, 228);
+            this.totalSumLb.Name = "totalSumLb";
+            this.totalSumLb.Size = new System.Drawing.Size(0, 13);
+            this.totalSumLb.TabIndex = 9;
             // 
             // BasketForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1233, 765);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(822, 497);
+            this.Controls.Add(this.totalSumLb);
+            this.Controls.Add(this.totalLb);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.exitBt2);
-            this.Controls.Add(this.basketTable);
             this.Controls.Add(this.backBt1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "BasketForm";
             this.Text = "BasketForm";
             this.TransparencyKey = System.Drawing.Color.Silver;
             this.Load += new System.EventHandler(this.BasketForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button backBt1;
-        private System.Windows.Forms.TableLayoutPanel basketTable;
         private System.Windows.Forms.Button exitBt2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameMasCl;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ServiseCl;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TimeCl;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PriceCl;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label totalLb;
+        private System.Windows.Forms.Label totalSumLb;
     }
 }
