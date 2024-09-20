@@ -8,18 +8,17 @@ namespace Beauty.modals
 {
     public class PayingInfo
     {
+        public string Id { get; set; }
         public string MasterName { get; set; }
         public DateTime Time { get; set; }
         public Service Service { get; set; }
 
-        public PayingInfo() { }
         public PayingInfo(string masterName, DateTime time, Service service) 
         {
             MasterName = masterName;
             Service = service;
-            Time = time;   
+            Time = time;
+            Id = Guid.NewGuid().ToString();
         }
-
-
     }
 }
