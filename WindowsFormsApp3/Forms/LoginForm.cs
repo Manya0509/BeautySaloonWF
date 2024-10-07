@@ -25,6 +25,7 @@ namespace WindowsFormsApp3
 
             if (UserManager.IsUserLogin(login, password))
             {
+                UserManager.CurrentUser = UserManager.GetCurrentUser(login, password);
                 new MainForm().Show();
             }
             else

@@ -18,6 +18,7 @@ namespace WindowsFormsApp3.Forms
         {
             InitializeComponent();
             _form = form;
+            passwordTb.Text = UserManager.CurrentUser.Password;
         }
 
         private void buttonEntrancePA1_Click(object sender, EventArgs e)
@@ -39,6 +40,24 @@ namespace WindowsFormsApp3.Forms
         private void exitBt_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void toСhangePassBt_Click(object sender, EventArgs e)
+        {
+            if (toСhangePassBt.Text == "Изменить")
+            {
+                toСhangePassBt.Text = "Сохранить";
+                passwordTb.Enabled = true;
+            }
+            else
+            {
+                toСhangePassBt.Text = "Изменить";
+                passwordTb.Enabled = false;
+
+                UserManager.ChangePassword(passwordTb.Text);
+
+                UserManager.SaveUsers();
+            }
         }
     }
 }
